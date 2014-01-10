@@ -3,13 +3,32 @@
 	<head>
 		<title>LifeLogger</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <link rel="stylesheet" href="index.css" type="text/css" />
-		<!-- <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
-		<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css"> -->
+		<link rel="stylesheet" href="index.css" type="text/css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+		<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/jquery.mobile-1.4.0.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<div data-role="page">
+		<div id="page-login" data-role="page">
+			<div data-role="header">
+				<h1>Login</h1>
+			</div>
+			<div role="main">
+				<label for="login-username" class="ui-hidden-accessible">Username</label>
+				<input id="login-username" type="text" placeholder="Username" />
+				
+				<label for="login-password" class="ui-hidden-accessible">Password</label>
+				<input id="login-password" type="password" placeholder="Password" />
+				
+				<button id="login-submit">Submit</button>
+			</div>
+			
+			<div data-role="footer" style="text-align: center;">
+				<span id="login-error" class="text-danger"></span>
+			</div>
+		</div>
+		
+		<div id="page-content" data-role="page">
 			<div data-role="tabs" id="tabs">
 				<div data-role="navbar">
 					<ul>
