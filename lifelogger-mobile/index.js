@@ -9,4 +9,18 @@ $(function () {
 			$.mobile.navigate("#page-content");
 		}
 	});
+	
+	$("#sleep-switch").click(function () {
+		if ($("#sleep-switch").hasClass("ui-btn-b")) { // Start sleep
+			$("#sleep-switch").removeClass("ui-btn-b");
+			$("#sleep-switch").text("Stop sleeping");
+			$("#sleep-notice").text("Recording sleep...");
+			$("#sleep-info").text("");
+		} else { // Stop sleep
+			$("#sleep-switch").addClass("ui-btn-b");
+			$("#sleep-switch").text("Start sleeping");
+			$("#sleep-notice").text("");
+			$("#sleep-info").text("Sleep registered");
+		}
+	});
 });

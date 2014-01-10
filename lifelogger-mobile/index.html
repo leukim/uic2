@@ -32,21 +32,65 @@
 			<div data-role="tabs" id="tabs">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#one" data-ajax="false">Dashboard</a></li>
-						<li><a href="#two" data-ajax="false">Input</a></li>
-						<li><a href="#three" data-ajax="false">Options</a></li>
+						<li class="ui-tabs-active ui-state-active"><a href="#one" data-ajax="false" class="ui-btn-active">Moves</a></li>
+						<li><a href="#two" data-ajax="false">Meals</a></li>
+						<li><a href="#three" data-ajax="false">Sleep</a></li>
 					</ul>
 				</div>
 				<div id="one" class="ui-body-d ui-content">
-					<h1>Dashboard</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et metus tempor, sagittis neque varius, accumsan dui. Quisque auctor ut purus viverra cursus. Aliquam lacus libero, interdum egestas aliquet vel, adipiscing a diam. Donec vitae iaculis ligula. Integer viverra nec libero non iaculis. Cras adipiscing lectus vitae auctor laoreet. Nunc congue nunc quis purus egestas, sed luctus nunc tincidunt. Suspendisse sagittis convallis eros, a lacinia nisl egestas ut. Duis condimentum turpis velit, id imperdiet neque tincidunt posuere. Donec id augue semper, pulvinar diam sed, ornare nulla. Fusce sed diam turpis. Phasellus feugiat enim eu ipsum tristique fringilla sed tristique arcu.</p>
+					<fieldset data-role="controlgroup">
+						<legend>Type</legend>
+						<input type="radio" name="movetype" id="move-walk" value="walk">
+						<label for="move-walk">Walking</label>
+						<input type="radio" name="movetype" id="move-run" value="run">
+						<label for="move-run">Running</label>
+						<input type="radio" name="movetype" id="move-cycle" value="cycle">
+						<label for="move-cycle">Cycling</label>
+					</fieldset>
+					
+					<fieldset data-role="controlgroup">
+						<legend>Type</legend>
+						<label for="moves-dist">Distance (Km)</label>
+						<input id="moves-dist" type="range" data-highlight="true" min="1" max="100" value="50" />
+					</fieldset>
+					
+					<button id="moves-submit" class="ui-btn ui-btn-b">Input</button>
 				</div>
 				<div id="two" class="ui-body-d ui-content">
-					<h1>Input data</h1>
-					<button class="ui-btn">Button</button>
+					<fieldset>
+						<legend>Meal</legend>
+						<label for="meal-name">Name</label>
+						<input id="meal-name" type="text" placeholder="Meal name" />
+						
+						<label for="meal-calories">Calories</label>
+						<input id="meal-calories" type="range" data-highlight="true" min="0" max="2500" value="1000" />
+						
+						<label for="meal-veg">Vegetarian</label>
+						<input id="meal-veg" type="checkbox" />
+						<label for="meal-lf">Low-fat</label>
+						<input id="meal-lf" type="checkbox" />
+					</fieldset>
+					
+					
+					<fieldset data-role="controlgroup">
+						<legend>Drink</legend>
+						<input type="radio" name="meal-drink" id="meal-drink-water" value="water">
+						<label for="meal-drink-water">Water</label>
+						<input type="radio" name="meal-drink" id="meal-drink-soft" value="soft">
+						<label for="meal-drink-soft">Soft drink</label>
+						<input type="radio" name="meal-drink" id="meal-drink-alcohol" value="alcohol">
+						<label for="meal-drink-alcohol">Alcoholic</label>
+					</fieldset>
+					
+					<button class="ui-btn ui-btn-b">Input</button>
 				</div>
 				<div id="three" class="ui-body-d ui-content">
-					<h1>Options</h1>
+					<button id="sleep-switch" class="ui-btn ui-btn-b">Start sleeping</button>
+					
+					<div data-role="footer">
+						<span id="sleep-notice"></span>
+						<span id="sleep-info" class="text-success"></span>
+					</div>
 				</div>
 			</div>
 		</div>		
