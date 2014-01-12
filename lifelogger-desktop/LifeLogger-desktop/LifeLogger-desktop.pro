@@ -31,3 +31,9 @@ FORMS    += mainwindow.ui \
     saveddialog.ui \
     sharedatadialog.ui \
     datasentdialog.ui
+
+OTHER_FILES += \
+    walk.png
+
+RESOURCES += \
+    images.qrc

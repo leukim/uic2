@@ -77,7 +77,11 @@ public:
     QLineEdit *lineEdit_11;
     QSpacerItem *horizontalSpacer_14;
     QWidget *tab;
+    QGridLayout *gridLayout_6;
     QLabel *label_4;
+    QLabel *label_18;
+    QLabel *label_19;
+    QLabel *label_20;
     QWidget *tab_2;
     QVBoxLayout *verticalLayout;
     QGridLayout *gridLayout;
@@ -329,9 +333,36 @@ public:
         tabWidget->addTab(tab_3, QString());
         tab = new QWidget();
         tab->setObjectName(QStringLiteral("tab"));
+        gridLayout_6 = new QGridLayout(tab);
+        gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
         label_4 = new QLabel(tab);
         label_4->setObjectName(QStringLiteral("label_4"));
-        label_4->setGeometry(QRect(80, 50, 66, 21));
+        label_4->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/walk.png")));
+        label_4->setScaledContents(true);
+
+        gridLayout_6->addWidget(label_4, 0, 0, 1, 1);
+
+        label_18 = new QLabel(tab);
+        label_18->setObjectName(QStringLiteral("label_18"));
+        label_18->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/sleep.png")));
+        label_18->setScaledContents(true);
+
+        gridLayout_6->addWidget(label_18, 0, 1, 1, 1);
+
+        label_19 = new QLabel(tab);
+        label_19->setObjectName(QStringLiteral("label_19"));
+        label_19->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/week.png")));
+        label_19->setScaledContents(true);
+
+        gridLayout_6->addWidget(label_19, 1, 0, 1, 1);
+
+        label_20 = new QLabel(tab);
+        label_20->setObjectName(QStringLiteral("label_20"));
+        label_20->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/meals.png")));
+        label_20->setScaledContents(true);
+
+        gridLayout_6->addWidget(label_20, 1, 1, 1, 1);
+
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QStringLiteral("tab_2"));
@@ -493,7 +524,10 @@ public:
         label_16->setText(QApplication::translate("MainWindow", "Average speed   ", 0));
         lineEdit_11->setText(QApplication::translate("MainWindow", "3.1", 0));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("MainWindow", "Review", 0));
-        label_4->setText(QApplication::translate("MainWindow", "TextLabel", 0));
+        label_4->setText(QString());
+        label_18->setText(QString());
+        label_19->setText(QString());
+        label_20->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "Analyze", 0));
         label->setText(QApplication::translate("MainWindow", "Meal name", 0));
         label_2->setText(QApplication::translate("MainWindow", "Calories", 0));
