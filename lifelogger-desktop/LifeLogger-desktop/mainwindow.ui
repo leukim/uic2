@@ -32,6 +32,30 @@
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <spacer name="horizontalSpacer_15">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="text">
+             <string>Share data</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
          <widget class="QGroupBox" name="groupBox">
           <property name="title">
            <string>Sleep</string>
@@ -77,7 +101,7 @@
              <property name="sizeHint" stdset="0">
               <size>
                <width>479</width>
-               <height>20</height>
+               <height>18</height>
               </size>
              </property>
             </spacer>
@@ -161,7 +185,7 @@
              <property name="sizeHint" stdset="0">
               <size>
                <width>479</width>
-               <height>20</height>
+               <height>18</height>
               </size>
              </property>
             </spacer>
@@ -193,7 +217,7 @@
              <property name="sizeHint" stdset="0">
               <size>
                <width>484</width>
-               <height>20</height>
+               <height>10</height>
               </size>
              </property>
             </spacer>

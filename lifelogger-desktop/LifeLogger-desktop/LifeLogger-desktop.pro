@@ -15,13 +15,19 @@ TEMPLATE = app
 SOURCES += main.cpp \
     mainwindow.cpp \
     loginwindow.cpp \
-    saveddialog.cpp
+    saveddialog.cpp \
+    sharedatadialog.cpp \
+    datasentdialog.cpp
 
 HEADERS  += \
     mainwindow.h \
     loginwindow.h \
-    saveddialog.h
+    saveddialog.h \
+    sharedatadialog.h \
+    datasentdialog.h
 
 FORMS    += mainwindow.ui \
     loginwindow.ui \
-    saveddialog.ui
+    saveddialog.ui \
+    sharedatadialog.ui \
+    datasentdialog.ui

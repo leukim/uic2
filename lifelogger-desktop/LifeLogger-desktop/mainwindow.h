@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "saveddialog.h"
+#include "sharedatadialog.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,9 +20,12 @@ public:
 private slots:
     void on_meal_save_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     SavedDialog d;
+    ShareDataDialog sdd;
 };
 
 #endif // MAINWINDOW_H

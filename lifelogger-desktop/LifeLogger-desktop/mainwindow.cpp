@@ -46,3 +46,8 @@ void MainWindow::on_meal_save_clicked()
         ui->slider_cal->setValue(0);
     }
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    sdd.show();
+}
