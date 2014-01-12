@@ -1,0 +1,1379 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'grunt' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.15
+4 verbose read json /home/miquel/UCI/jquery-ui-1.10.3/package.json
+5 verbose read json /home/miquel/UCI/jquery-ui-1.10.3/node_modules/underscore/package.json
+6 verbose from cache /home/miquel/UCI/jquery-ui-1.10.3/package.json
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt', null ]
+9 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt',
+10 verbose parsed url   path: 'grunt',
+10 verbose parsed url   href: 'grunt' }
+11 silly lockFile 20ff3fd8-grunt grunt
+12 verbose lock grunt /home/miquel/.npm/20ff3fd8-grunt.lock
+13 silly lockFile 20ff3fd8-grunt grunt
+14 silly lockFile 20ff3fd8-grunt grunt
+15 verbose addNamed [ 'grunt', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 55f1ff24-grunt grunt@
+18 verbose lock grunt@ /home/miquel/.npm/55f1ff24-grunt.lock
+19 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+20 verbose url raw grunt
+21 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+22 verbose url resolved https://registry.npmjs.org/grunt
+23 info trying registry request attempt 1 at 14:20:27
+24 verbose etag "406H1ZWCSKWECPGU7GH2FEJBY"
+25 http GET https://registry.npmjs.org/grunt
+26 http 304 https://registry.npmjs.org/grunt
+27 silly registry.get cb [ 304,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+27 silly registry.get     etag: '"406H1ZWCSKWECPGU7GH2FEJBY"',
+27 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:28 GMT',
+27 silly registry.get     'content-length': '0' } ]
+28 verbose etag grunt from cache
+29 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+30 silly addNameRange versions [ 'grunt',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.2.5',
+30 silly addNameRange     '0.2.6',
+30 silly addNameRange     '0.2.7',
+30 silly addNameRange     '0.2.8',
+30 silly addNameRange     '0.2.9',
+30 silly addNameRange     '0.2.10',
+30 silly addNameRange     '0.2.11',
+30 silly addNameRange     '0.2.12',
+30 silly addNameRange     '0.2.13',
+30 silly addNameRange     '0.2.14',
+30 silly addNameRange     '0.2.15',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.3.2',
+30 silly addNameRange     '0.3.3',
+30 silly addNameRange     '0.3.4',
+30 silly addNameRange     '0.3.5',
+30 silly addNameRange     '0.3.6',
+30 silly addNameRange     '0.3.7',
+30 silly addNameRange     '0.3.8',
+30 silly addNameRange     '0.3.9',
+30 silly addNameRange     '0.3.10',
+30 silly addNameRange     '0.3.11',
+30 silly addNameRange     '0.3.12',
+30 silly addNameRange     '0.3.13',
+30 silly addNameRange     '0.3.14',
+30 silly addNameRange     '0.3.15',
+30 silly addNameRange     '0.3.16',
+30 silly addNameRange     '0.3.17',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.3.13-a',
+30 silly addNameRange     '0.4.0-a',
+30 silly addNameRange     '0.4.0-rc1',
+30 silly addNameRange     '0.4.0-rc2',
+30 silly addNameRange     '0.4.0-rc3',
+30 silly addNameRange     '0.4.0-rc4',
+30 silly addNameRange     '0.4.0-rc5',
+30 silly addNameRange     '0.4.0-rc6',
+30 silly addNameRange     '0.4.0-rc7',
+30 silly addNameRange     '0.4.0-rc8' ] ]
+31 verbose addNamed [ 'grunt', '0.4.1' ]
+32 verbose addNamed [ '0.4.1', '0.4.1' ]
+33 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+34 verbose lock grunt@0.4.1 /home/miquel/.npm/f9e87dfe-grunt-0-4-1.lock
+35 verbose read json /home/miquel/.npm/grunt/0.4.1/package/package.json
+36 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+37 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+38 silly lockFile 55f1ff24-grunt grunt@
+39 silly lockFile 55f1ff24-grunt grunt@
+40 silly resolved [ { name: 'grunt',
+40 silly resolved     description: 'The JavaScript Task Runner',
+40 silly resolved     version: '0.4.1',
+40 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+40 silly resolved     homepage: 'http://gruntjs.com/',
+40 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+40 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+40 silly resolved     licenses: [ [Object] ],
+40 silly resolved     main: 'lib/grunt',
+40 silly resolved     scripts: { test: 'grunt test' },
+40 silly resolved     engines: { node: '>= 0.8.0' },
+40 silly resolved     keywords:
+40 silly resolved      [ 'task',
+40 silly resolved        'async',
+40 silly resolved        'cli',
+40 silly resolved        'minify',
+40 silly resolved        'uglify',
+40 silly resolved        'build',
+40 silly resolved        'lodash',
+40 silly resolved        'unit',
+40 silly resolved        'test',
+40 silly resolved        'qunit',
+40 silly resolved        'nodeunit',
+40 silly resolved        'server',
+40 silly resolved        'init',
+40 silly resolved        'scaffold',
+40 silly resolved        'make',
+40 silly resolved        'jake',
+40 silly resolved        'tool' ],
+40 silly resolved     dependencies:
+40 silly resolved      { async: '~0.1.22',
+40 silly resolved        'coffee-script': '~1.3.3',
+40 silly resolved        colors: '~0.6.0-1',
+40 silly resolved        dateformat: '1.0.2-1.2.3',
+40 silly resolved        eventemitter2: '~0.4.9',
+40 silly resolved        'findup-sync': '~0.1.0',
+40 silly resolved        glob: '~3.1.21',
+40 silly resolved        hooker: '~0.2.3',
+40 silly resolved        'iconv-lite': '~0.2.5',
+40 silly resolved        minimatch: '~0.2.6',
+40 silly resolved        nopt: '~1.0.10',
+40 silly resolved        rimraf: '~2.0.2',
+40 silly resolved        lodash: '~0.9.0',
+40 silly resolved        'underscore.string': '~2.2.0rc',
+40 silly resolved        which: '~1.0.5',
+40 silly resolved        'js-yaml': '~2.0.2' },
+40 silly resolved     devDependencies:
+40 silly resolved      { temporary: '~0.0.4',
+40 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+40 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+40 silly resolved        'grunt-contrib-watch': '~0.2.0',
+40 silly resolved        difflet: '~0.2.3' },
+40 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+40 silly resolved     readme: '# Grunt: The JavaScript Task Runner [![Build Status](https://secure.travis-ci.org/gruntjs/grunt.png?branch=master)](http://travis-ci.org/gruntjs/grunt)\n\n### Documentation\n\nVisit the [gruntjs.com](http://gruntjs.com/) website for all the things.\n\n### Support / Contributing\nBefore you make an issue, please read our [Contributing](http://gruntjs.com/contributing) guide.\n\nYou can find the grunt team in [#grunt on irc.freenode.net](irc://irc.freenode.net/#grunt).\n\n### Release History\nSee the [CHANGELOG](CHANGELOG).\n',
+40 silly resolved     readmeFilename: 'README.md',
+40 silly resolved     _id: 'grunt@0.4.1',
+40 silly resolved     _from: 'grunt@' } ]
+41 info install grunt@0.4.1 into /home/miquel/UCI/jquery-ui-1.10.3
+42 info installOne grunt@0.4.1
+43 verbose from cache /home/miquel/.npm/grunt/0.4.1/package/package.json
+44 info /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt unbuild
+45 verbose read json /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt/package.json
+46 verbose tar unpack /home/miquel/.npm/grunt/0.4.1/package.tgz
+47 silly lockFile d547cf51-ery-ui-1-10-3-node-modules-grunt /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt
+48 verbose lock /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt /home/miquel/.npm/d547cf51-ery-ui-1-10-3-node-modules-grunt.lock
+49 silly lockFile 0d99dafd-quel-npm-grunt-0-4-1-package-tgz /home/miquel/.npm/grunt/0.4.1/package.tgz
+50 verbose lock /home/miquel/.npm/grunt/0.4.1/package.tgz /home/miquel/.npm/0d99dafd-quel-npm-grunt-0-4-1-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry .npmignore
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry Gruntfile.js
+56 silly gunzTarPerm extractEntry custom-gruntfile.js
+57 silly gunzTarPerm extractEntry test/fixtures/a.js
+58 silly gunzTarPerm extractEntry test/fixtures/b.js
+59 silly gunzTarPerm extractEntry test/fixtures/banner.js
+60 silly gunzTarPerm extractEntry test/fixtures/banner2.js
+61 silly gunzTarPerm extractEntry test/fixtures/banner3.js
+62 silly gunzTarPerm extractEntry test/fixtures/Gruntfile-print-text.js
+63 silly gunzTarPerm extractEntry test/fixtures/spawn-multibyte.js
+64 silly gunzTarPerm extractEntry test/fixtures/spawn.js
+65 silly gunzTarPerm extractEntry test/fixtures/iso-8859-1.json
+66 silly gunzTarPerm extractEntry test/fixtures/expand/README.md
+67 silly gunzTarPerm extractEntry test/fixtures/expand/css/baz.css
+68 silly gunzTarPerm extractEntry test/fixtures/expand/css/qux.css
+69 silly gunzTarPerm extractEntry test/fixtures/expand/deep/deep.txt
+70 silly gunzTarPerm extractEntry test/fixtures/expand/deep/deeper/deeper.txt
+71 silly gunzTarPerm extractEntry test/fixtures/expand/deep/deeper/deepest/deepest.txt
+72 silly gunzTarPerm extractEntry test/fixtures/expand/js/bar.js
+73 silly gunzTarPerm extractEntry test/fixtures/expand/js/foo.js
+74 silly gunzTarPerm extractEntry test/fixtures/expand-mapping-ext/dir.ectory/file-no-extension
+75 silly gunzTarPerm extractEntry test/fixtures/expand-mapping-ext/dir.ectory/sub.dir.ectory/file.ext.ension
+76 silly gunzTarPerm extractEntry test/fixtures/expand-mapping-ext/file.ext.ension
+77 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-123-a.js
+78 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-123-b.js
+79 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-a.js
+80 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-b.js
+81 silly gunzTarPerm extractEntry test/fixtures/files/dist/built.js
+82 silly gunzTarPerm extractEntry test/fixtures/files/src/file1-123.js
+83 silly gunzTarPerm extractEntry test/fixtures/files/src/file1.js
+84 silly gunzTarPerm extractEntry test/fixtures/files/src/file2-123.js
+85 silly gunzTarPerm extractEntry test/fixtures/files/src/file2.js
+86 silly gunzTarPerm extractEntry test/fixtures/BOM.txt
+87 silly gunzTarPerm extractEntry test/fixtures/iso-8859-1.txt
+88 silly gunzTarPerm extractEntry test/fixtures/iso-8859-1.yaml
+89 silly gunzTarPerm extractEntry test/fixtures/lint.txt
+90 silly gunzTarPerm extractEntry test/fixtures/no_BOM.txt
+91 silly gunzTarPerm extractEntry test/fixtures/octocat.png
+92 silly gunzTarPerm extractEntry test/fixtures/exec.cmd
+93 silly gunzTarPerm extractEntry test/fixtures/exec.sh
+94 silly gunzTarPerm extractEntry test/fixtures/template.txt
+95 silly gunzTarPerm extractEntry test/fixtures/test.json
+96 silly gunzTarPerm extractEntry test/fixtures/utf8.json
+97 silly gunzTarPerm extractEntry test/fixtures/utf8.txt
+98 silly gunzTarPerm extractEntry test/fixtures/utf8.yaml
+99 silly gunzTarPerm extractEntry test/grunt/config_test.js
+100 silly gunzTarPerm extractEntry test/grunt/event_test.js
+101 silly gunzTarPerm extractEntry test/grunt/file_test.js
+102 silly gunzTarPerm extractEntry test/grunt/log_test.js
+103 silly gunzTarPerm extractEntry test/grunt/option_test.js
+104 silly gunzTarPerm extractEntry test/grunt/task_test.js
+105 silly gunzTarPerm extractEntry test/grunt/template_test.js
+106 silly gunzTarPerm extractEntry test/grunt/util_test.js
+107 silly gunzTarPerm extractEntry test/gruntfile/multi-task-files.js
+108 silly gunzTarPerm extractEntry test/util/namespace_test.js
+109 silly gunzTarPerm extractEntry test/util/task_test.js
+110 silly gunzTarPerm extractEntry .travis.yml
+111 silly gunzTarPerm extractEntry AUTHORS
+112 silly gunzTarPerm extractEntry CHANGELOG
+113 silly gunzTarPerm extractEntry docs/README.md
+114 silly gunzTarPerm extractEntry lib/grunt.js
+115 silly gunzTarPerm extractEntry lib/grunt/cli.js
+116 silly gunzTarPerm extractEntry lib/grunt/event.js
+117 silly gunzTarPerm extractEntry lib/grunt/fail.js
+118 silly gunzTarPerm extractEntry lib/grunt/file.js
+119 silly gunzTarPerm extractEntry lib/grunt/config.js
+120 silly gunzTarPerm extractEntry lib/grunt/log.js
+121 silly gunzTarPerm extractEntry lib/grunt/option.js
+122 silly gunzTarPerm extractEntry lib/grunt/task.js
+123 silly gunzTarPerm extractEntry lib/grunt/template.js
+124 silly gunzTarPerm extractEntry lib/grunt/util.js
+125 silly gunzTarPerm extractEntry lib/grunt/help.js
+126 silly gunzTarPerm extractEntry lib/util/exit.js
+127 silly gunzTarPerm extractEntry lib/util/namespace.js
+128 silly gunzTarPerm extractEntry lib/util/task.js
+129 silly gunzTarPerm extractEntry CONTRIBUTING.md
+130 silly gunzTarPerm extractEntry LICENSE-MIT
+131 verbose read json /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt/package.json
+132 silly lockFile d547cf51-ery-ui-1-10-3-node-modules-grunt /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt
+133 silly lockFile d547cf51-ery-ui-1-10-3-node-modules-grunt /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt
+134 silly lockFile 0d99dafd-quel-npm-grunt-0-4-1-package-tgz /home/miquel/.npm/grunt/0.4.1/package.tgz
+135 silly lockFile 0d99dafd-quel-npm-grunt-0-4-1-package-tgz /home/miquel/.npm/grunt/0.4.1/package.tgz
+136 info preinstall grunt@0.4.1
+137 verbose from cache /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt/package.json
+138 verbose readDependencies using package.json deps
+139 verbose from cache /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt/package.json
+140 verbose readDependencies using package.json deps
+141 verbose cache add [ 'async@~0.1.22', null ]
+142 verbose cache add name=undefined spec="async@~0.1.22" args=["async@~0.1.22",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'async@~0.1.22',
+143 verbose parsed url   path: 'async@~0.1.22',
+143 verbose parsed url   href: 'async@~0.1.22' }
+144 verbose cache add name="async" spec="~0.1.22" args=["async","~0.1.22"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '~0.1.22',
+145 verbose parsed url   path: '~0.1.22',
+145 verbose parsed url   href: '~0.1.22' }
+146 verbose addNamed [ 'async', '~0.1.22' ]
+147 verbose addNamed [ null, '>=0.1.22-0 <0.2.0-0' ]
+148 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+149 verbose lock async@~0.1.22 /home/miquel/.npm/3af71045-async-0-1-22.lock
+150 verbose cache add [ 'coffee-script@~1.3.3', null ]
+151 verbose cache add name=undefined spec="coffee-script@~1.3.3" args=["coffee-script@~1.3.3",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'coffee-script@~1.3.3',
+152 verbose parsed url   path: 'coffee-script@~1.3.3',
+152 verbose parsed url   href: 'coffee-script@~1.3.3' }
+153 verbose cache add name="coffee-script" spec="~1.3.3" args=["coffee-script","~1.3.3"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '~1.3.3',
+154 verbose parsed url   path: '~1.3.3',
+154 verbose parsed url   href: '~1.3.3' }
+155 verbose addNamed [ 'coffee-script', '~1.3.3' ]
+156 verbose addNamed [ null, '>=1.3.3-0 <1.4.0-0' ]
+157 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+158 verbose lock coffee-script@~1.3.3 /home/miquel/.npm/f72bb580-coffee-script-1-3-3.lock
+159 silly addNameRange { name: 'async', range: '>=0.1.22-0 <0.2.0-0', hasData: false }
+160 verbose cache add [ 'dateformat@1.0.2-1.2.3', null ]
+161 verbose cache add name=undefined spec="dateformat@1.0.2-1.2.3" args=["dateformat@1.0.2-1.2.3",null]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: 'dateformat@1.0.2-1.2.3',
+162 verbose parsed url   path: 'dateformat@1.0.2-1.2.3',
+162 verbose parsed url   href: 'dateformat@1.0.2-1.2.3' }
+163 verbose cache add name="dateformat" spec="1.0.2-1.2.3" args=["dateformat","1.0.2-1.2.3"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '1.0.2-1.2.3',
+164 verbose parsed url   path: '1.0.2-1.2.3',
+164 verbose parsed url   href: '1.0.2-1.2.3' }
+165 verbose addNamed [ 'dateformat', '1.0.2-1.2.3' ]
+166 verbose addNamed [ '1.0.2-1.2.3', '1.0.2-1.2.3' ]
+167 silly lockFile 644d6e27-dateformat-1-0-2-1-2-3 dateformat@1.0.2-1.2.3
+168 verbose lock dateformat@1.0.2-1.2.3 /home/miquel/.npm/644d6e27-dateformat-1-0-2-1-2-3.lock
+169 verbose cache add [ 'colors@~0.6.0-1', null ]
+170 verbose cache add name=undefined spec="colors@~0.6.0-1" args=["colors@~0.6.0-1",null]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: 'colors@~0.6.0-1',
+171 verbose parsed url   path: 'colors@~0.6.0-1',
+171 verbose parsed url   href: 'colors@~0.6.0-1' }
+172 verbose cache add name="colors" spec="~0.6.0-1" args=["colors","~0.6.0-1"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '~0.6.0-1',
+173 verbose parsed url   path: '~0.6.0-1',
+173 verbose parsed url   href: '~0.6.0-1' }
+174 verbose addNamed [ 'colors', '~0.6.0-1' ]
+175 verbose addNamed [ null, '>=0.6.0-1 <0.7.0-0' ]
+176 silly lockFile f29bff6b-colors-0-6-0-1 colors@~0.6.0-1
+177 verbose lock colors@~0.6.0-1 /home/miquel/.npm/f29bff6b-colors-0-6-0-1.lock
+178 verbose cache add [ 'eventemitter2@~0.4.9', null ]
+179 verbose cache add name=undefined spec="eventemitter2@~0.4.9" args=["eventemitter2@~0.4.9",null]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: 'eventemitter2@~0.4.9',
+180 verbose parsed url   path: 'eventemitter2@~0.4.9',
+180 verbose parsed url   href: 'eventemitter2@~0.4.9' }
+181 verbose cache add name="eventemitter2" spec="~0.4.9" args=["eventemitter2","~0.4.9"]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: '~0.4.9',
+182 verbose parsed url   path: '~0.4.9',
+182 verbose parsed url   href: '~0.4.9' }
+183 verbose addNamed [ 'eventemitter2', '~0.4.9' ]
+184 verbose addNamed [ null, '>=0.4.9-0 <0.5.0-0' ]
+185 silly lockFile 70573e74-eventemitter2-0-4-9 eventemitter2@~0.4.9
+186 verbose lock eventemitter2@~0.4.9 /home/miquel/.npm/70573e74-eventemitter2-0-4-9.lock
+187 silly addNameRange { name: 'coffee-script',
+187 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+187 silly addNameRange   hasData: false }
+188 silly addNameRange { name: 'colors', range: '>=0.6.0-1 <0.7.0-0', hasData: false }
+189 verbose cache add [ 'findup-sync@~0.1.0', null ]
+190 verbose cache add name=undefined spec="findup-sync@~0.1.0" args=["findup-sync@~0.1.0",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'findup-sync@~0.1.0',
+191 verbose parsed url   path: 'findup-sync@~0.1.0',
+191 verbose parsed url   href: 'findup-sync@~0.1.0' }
+192 verbose cache add name="findup-sync" spec="~0.1.0" args=["findup-sync","~0.1.0"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '~0.1.0',
+193 verbose parsed url   path: '~0.1.0',
+193 verbose parsed url   href: '~0.1.0' }
+194 verbose addNamed [ 'findup-sync', '~0.1.0' ]
+195 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+196 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+197 verbose lock findup-sync@~0.1.0 /home/miquel/.npm/625605b9-findup-sync-0-1-0.lock
+198 verbose cache add [ 'glob@~3.1.21', null ]
+199 verbose cache add name=undefined spec="glob@~3.1.21" args=["glob@~3.1.21",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'glob@~3.1.21',
+200 verbose parsed url   path: 'glob@~3.1.21',
+200 verbose parsed url   href: 'glob@~3.1.21' }
+201 verbose cache add name="glob" spec="~3.1.21" args=["glob","~3.1.21"]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: '~3.1.21',
+202 verbose parsed url   path: '~3.1.21',
+202 verbose parsed url   href: '~3.1.21' }
+203 verbose addNamed [ 'glob', '~3.1.21' ]
+204 verbose addNamed [ null, '>=3.1.21-0 <3.2.0-0' ]
+205 silly lockFile b5074ddc-glob-3-1-21 glob@~3.1.21
+206 verbose lock glob@~3.1.21 /home/miquel/.npm/b5074ddc-glob-3-1-21.lock
+207 silly addNameRange { name: 'eventemitter2',
+207 silly addNameRange   range: '>=0.4.9-0 <0.5.0-0',
+207 silly addNameRange   hasData: false }
+208 silly addNameRange { name: 'findup-sync',
+208 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+208 silly addNameRange   hasData: false }
+209 verbose cache add [ 'hooker@~0.2.3', null ]
+210 verbose cache add name=undefined spec="hooker@~0.2.3" args=["hooker@~0.2.3",null]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: 'hooker@~0.2.3',
+211 verbose parsed url   path: 'hooker@~0.2.3',
+211 verbose parsed url   href: 'hooker@~0.2.3' }
+212 verbose cache add name="hooker" spec="~0.2.3" args=["hooker","~0.2.3"]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: '~0.2.3',
+213 verbose parsed url   path: '~0.2.3',
+213 verbose parsed url   href: '~0.2.3' }
+214 verbose addNamed [ 'hooker', '~0.2.3' ]
+215 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+216 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+217 verbose lock hooker@~0.2.3 /home/miquel/.npm/2bcd1457-hooker-0-2-3.lock
+218 verbose cache add [ 'iconv-lite@~0.2.5', null ]
+219 verbose cache add name=undefined spec="iconv-lite@~0.2.5" args=["iconv-lite@~0.2.5",null]
+220 verbose parsed url { protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: 'iconv-lite@~0.2.5',
+220 verbose parsed url   path: 'iconv-lite@~0.2.5',
+220 verbose parsed url   href: 'iconv-lite@~0.2.5' }
+221 verbose cache add name="iconv-lite" spec="~0.2.5" args=["iconv-lite","~0.2.5"]
+222 verbose parsed url { protocol: null,
+222 verbose parsed url   slashes: null,
+222 verbose parsed url   auth: null,
+222 verbose parsed url   host: null,
+222 verbose parsed url   port: null,
+222 verbose parsed url   hostname: null,
+222 verbose parsed url   hash: null,
+222 verbose parsed url   search: null,
+222 verbose parsed url   query: null,
+222 verbose parsed url   pathname: '~0.2.5',
+222 verbose parsed url   path: '~0.2.5',
+222 verbose parsed url   href: '~0.2.5' }
+223 verbose addNamed [ 'iconv-lite', '~0.2.5' ]
+224 verbose addNamed [ null, '>=0.2.5-0 <0.3.0-0' ]
+225 silly lockFile ca9efaa1-iconv-lite-0-2-5 iconv-lite@~0.2.5
+226 verbose lock iconv-lite@~0.2.5 /home/miquel/.npm/ca9efaa1-iconv-lite-0-2-5.lock
+227 silly addNameRange { name: 'glob', range: '>=3.1.21-0 <3.2.0-0', hasData: false }
+228 silly addNameRange { name: 'hooker', range: '>=0.2.3-0 <0.3.0-0', hasData: false }
+229 verbose cache add [ 'minimatch@~0.2.6', null ]
+230 verbose cache add name=undefined spec="minimatch@~0.2.6" args=["minimatch@~0.2.6",null]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 'minimatch@~0.2.6',
+231 verbose parsed url   path: 'minimatch@~0.2.6',
+231 verbose parsed url   href: 'minimatch@~0.2.6' }
+232 verbose cache add name="minimatch" spec="~0.2.6" args=["minimatch","~0.2.6"]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: '~0.2.6',
+233 verbose parsed url   path: '~0.2.6',
+233 verbose parsed url   href: '~0.2.6' }
+234 verbose addNamed [ 'minimatch', '~0.2.6' ]
+235 verbose addNamed [ null, '>=0.2.6-0 <0.3.0-0' ]
+236 silly lockFile 5922ee11-minimatch-0-2-6 minimatch@~0.2.6
+237 verbose lock minimatch@~0.2.6 /home/miquel/.npm/5922ee11-minimatch-0-2-6.lock
+238 verbose cache add [ 'nopt@~1.0.10', null ]
+239 verbose cache add name=undefined spec="nopt@~1.0.10" args=["nopt@~1.0.10",null]
+240 verbose parsed url { protocol: null,
+240 verbose parsed url   slashes: null,
+240 verbose parsed url   auth: null,
+240 verbose parsed url   host: null,
+240 verbose parsed url   port: null,
+240 verbose parsed url   hostname: null,
+240 verbose parsed url   hash: null,
+240 verbose parsed url   search: null,
+240 verbose parsed url   query: null,
+240 verbose parsed url   pathname: 'nopt@~1.0.10',
+240 verbose parsed url   path: 'nopt@~1.0.10',
+240 verbose parsed url   href: 'nopt@~1.0.10' }
+241 verbose cache add name="nopt" spec="~1.0.10" args=["nopt","~1.0.10"]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: '~1.0.10',
+242 verbose parsed url   path: '~1.0.10',
+242 verbose parsed url   href: '~1.0.10' }
+243 verbose addNamed [ 'nopt', '~1.0.10' ]
+244 verbose addNamed [ null, '>=1.0.10-0 <1.1.0-0' ]
+245 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+246 verbose lock nopt@~1.0.10 /home/miquel/.npm/79f78dba-nopt-1-0-10.lock
+247 verbose cache add [ 'rimraf@~2.0.2', null ]
+248 verbose cache add name=undefined spec="rimraf@~2.0.2" args=["rimraf@~2.0.2",null]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: 'rimraf@~2.0.2',
+249 verbose parsed url   path: 'rimraf@~2.0.2',
+249 verbose parsed url   href: 'rimraf@~2.0.2' }
+250 verbose cache add name="rimraf" spec="~2.0.2" args=["rimraf","~2.0.2"]
+251 verbose parsed url { protocol: null,
+251 verbose parsed url   slashes: null,
+251 verbose parsed url   auth: null,
+251 verbose parsed url   host: null,
+251 verbose parsed url   port: null,
+251 verbose parsed url   hostname: null,
+251 verbose parsed url   hash: null,
+251 verbose parsed url   search: null,
+251 verbose parsed url   query: null,
+251 verbose parsed url   pathname: '~2.0.2',
+251 verbose parsed url   path: '~2.0.2',
+251 verbose parsed url   href: '~2.0.2' }
+252 verbose addNamed [ 'rimraf', '~2.0.2' ]
+253 verbose addNamed [ null, '>=2.0.2-0 <2.1.0-0' ]
+254 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+255 verbose lock rimraf@~2.0.2 /home/miquel/.npm/723423b4-rimraf-2-0-2.lock
+256 silly addNameRange { name: 'iconv-lite',
+256 silly addNameRange   range: '>=0.2.5-0 <0.3.0-0',
+256 silly addNameRange   hasData: false }
+257 silly addNameRange { name: 'minimatch',
+257 silly addNameRange   range: '>=0.2.6-0 <0.3.0-0',
+257 silly addNameRange   hasData: false }
+258 silly addNameRange { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: false }
+259 verbose cache add [ 'lodash@~0.9.0', null ]
+260 verbose cache add name=undefined spec="lodash@~0.9.0" args=["lodash@~0.9.0",null]
+261 verbose parsed url { protocol: null,
+261 verbose parsed url   slashes: null,
+261 verbose parsed url   auth: null,
+261 verbose parsed url   host: null,
+261 verbose parsed url   port: null,
+261 verbose parsed url   hostname: null,
+261 verbose parsed url   hash: null,
+261 verbose parsed url   search: null,
+261 verbose parsed url   query: null,
+261 verbose parsed url   pathname: 'lodash@~0.9.0',
+261 verbose parsed url   path: 'lodash@~0.9.0',
+261 verbose parsed url   href: 'lodash@~0.9.0' }
+262 verbose cache add name="lodash" spec="~0.9.0" args=["lodash","~0.9.0"]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: '~0.9.0',
+263 verbose parsed url   path: '~0.9.0',
+263 verbose parsed url   href: '~0.9.0' }
+264 verbose addNamed [ 'lodash', '~0.9.0' ]
+265 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+266 silly lockFile 429879b8-lodash-0-9-0 lodash@~0.9.0
+267 verbose lock lodash@~0.9.0 /home/miquel/.npm/429879b8-lodash-0-9-0.lock
+268 verbose cache add [ 'underscore.string@~2.2.0rc', null ]
+269 verbose cache add name=undefined spec="underscore.string@~2.2.0rc" args=["underscore.string@~2.2.0rc",null]
+270 verbose parsed url { protocol: null,
+270 verbose parsed url   slashes: null,
+270 verbose parsed url   auth: null,
+270 verbose parsed url   host: null,
+270 verbose parsed url   port: null,
+270 verbose parsed url   hostname: null,
+270 verbose parsed url   hash: null,
+270 verbose parsed url   search: null,
+270 verbose parsed url   query: null,
+270 verbose parsed url   pathname: 'underscore.string@~2.2.0rc',
+270 verbose parsed url   path: 'underscore.string@~2.2.0rc',
+270 verbose parsed url   href: 'underscore.string@~2.2.0rc' }
+271 verbose cache add name="underscore.string" spec="~2.2.0rc" args=["underscore.string","~2.2.0rc"]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: '~2.2.0rc',
+272 verbose parsed url   path: '~2.2.0rc',
+272 verbose parsed url   href: '~2.2.0rc' }
+273 verbose addNamed [ 'underscore.string', '~2.2.0rc' ]
+274 verbose addNamed [ null, null ]
+275 silly lockFile d5a5a3c6-underscore-string-2-2-0rc underscore.string@~2.2.0rc
+276 verbose lock underscore.string@~2.2.0rc /home/miquel/.npm/d5a5a3c6-underscore-string-2-2-0rc.lock
+277 verbose cache add [ 'which@~1.0.5', null ]
+278 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+279 verbose parsed url { protocol: null,
+279 verbose parsed url   slashes: null,
+279 verbose parsed url   auth: null,
+279 verbose parsed url   host: null,
+279 verbose parsed url   port: null,
+279 verbose parsed url   hostname: null,
+279 verbose parsed url   hash: null,
+279 verbose parsed url   search: null,
+279 verbose parsed url   query: null,
+279 verbose parsed url   pathname: 'which@~1.0.5',
+279 verbose parsed url   path: 'which@~1.0.5',
+279 verbose parsed url   href: 'which@~1.0.5' }
+280 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: '~1.0.5',
+281 verbose parsed url   path: '~1.0.5',
+281 verbose parsed url   href: '~1.0.5' }
+282 verbose addNamed [ 'which', '~1.0.5' ]
+283 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+284 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+285 verbose lock which@~1.0.5 /home/miquel/.npm/d158d65e-which-1-0-5.lock
+286 verbose cache add [ 'js-yaml@~2.0.2', null ]
+287 verbose cache add name=undefined spec="js-yaml@~2.0.2" args=["js-yaml@~2.0.2",null]
+288 verbose parsed url { protocol: null,
+288 verbose parsed url   slashes: null,
+288 verbose parsed url   auth: null,
+288 verbose parsed url   host: null,
+288 verbose parsed url   port: null,
+288 verbose parsed url   hostname: null,
+288 verbose parsed url   hash: null,
+288 verbose parsed url   search: null,
+288 verbose parsed url   query: null,
+288 verbose parsed url   pathname: 'js-yaml@~2.0.2',
+288 verbose parsed url   path: 'js-yaml@~2.0.2',
+288 verbose parsed url   href: 'js-yaml@~2.0.2' }
+289 verbose cache add name="js-yaml" spec="~2.0.2" args=["js-yaml","~2.0.2"]
+290 verbose parsed url { protocol: null,
+290 verbose parsed url   slashes: null,
+290 verbose parsed url   auth: null,
+290 verbose parsed url   host: null,
+290 verbose parsed url   port: null,
+290 verbose parsed url   hostname: null,
+290 verbose parsed url   hash: null,
+290 verbose parsed url   search: null,
+290 verbose parsed url   query: null,
+290 verbose parsed url   pathname: '~2.0.2',
+290 verbose parsed url   path: '~2.0.2',
+290 verbose parsed url   href: '~2.0.2' }
+291 verbose addNamed [ 'js-yaml', '~2.0.2' ]
+292 verbose addNamed [ null, '>=2.0.2-0 <2.1.0-0' ]
+293 silly lockFile 0dc3e23f-js-yaml-2-0-2 js-yaml@~2.0.2
+294 verbose lock js-yaml@~2.0.2 /home/miquel/.npm/0dc3e23f-js-yaml-2-0-2.lock
+295 silly addNameRange { name: 'rimraf', range: '>=2.0.2-0 <2.1.0-0', hasData: false }
+296 verbose url raw async
+297 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+298 verbose url resolved https://registry.npmjs.org/async
+299 info trying registry request attempt 1 at 14:20:28
+300 verbose etag "2B1Y1C2HQ67I3WVSBVWN4MMV1"
+301 http GET https://registry.npmjs.org/async
+302 silly addNameRange { name: 'lodash', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+303 info addNameTag [ 'underscore.string', '~2.2.0rc' ]
+304 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+305 silly addNameRange { name: 'js-yaml', range: '>=2.0.2-0 <2.1.0-0', hasData: false }
+306 verbose url raw coffee-script
+307 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+308 verbose url resolved https://registry.npmjs.org/coffee-script
+309 info trying registry request attempt 1 at 14:20:28
+310 verbose etag "D6W2D9MC80MJAFWCFZ2W18E18"
+311 http GET https://registry.npmjs.org/coffee-script
+312 verbose url raw colors
+313 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+314 verbose url resolved https://registry.npmjs.org/colors
+315 info trying registry request attempt 1 at 14:20:28
+316 verbose etag "B9D8N8DMNF7PPXGIBQQ74H802"
+317 http GET https://registry.npmjs.org/colors
+318 verbose url raw dateformat/1.0.2-1.2.3
+319 verbose url resolving [ 'https://registry.npmjs.org/', './dateformat/1.0.2-1.2.3' ]
+320 verbose url resolved https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+321 info trying registry request attempt 1 at 14:20:28
+322 verbose etag "53MGS4758SFBP4J0VMOWHAVRB"
+323 http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+324 verbose url raw eventemitter2
+325 verbose url resolving [ 'https://registry.npmjs.org/', './eventemitter2' ]
+326 verbose url resolved https://registry.npmjs.org/eventemitter2
+327 info trying registry request attempt 1 at 14:20:28
+328 verbose etag "3X5QUGJ2DP05IHP358LX937LG"
+329 http GET https://registry.npmjs.org/eventemitter2
+330 verbose url raw findup-sync
+331 verbose url resolving [ 'https://registry.npmjs.org/', './findup-sync' ]
+332 verbose url resolved https://registry.npmjs.org/findup-sync
+333 info trying registry request attempt 1 at 14:20:28
+334 verbose etag "BFALDACBDE84KEJ1UFRKML8CD"
+335 http GET https://registry.npmjs.org/findup-sync
+336 verbose url raw glob
+337 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+338 verbose url resolved https://registry.npmjs.org/glob
+339 info trying registry request attempt 1 at 14:20:28
+340 verbose etag "9F27NP1F72HEQ13T6LA8E16E8"
+341 http GET https://registry.npmjs.org/glob
+342 verbose url raw hooker
+343 verbose url resolving [ 'https://registry.npmjs.org/', './hooker' ]
+344 verbose url resolved https://registry.npmjs.org/hooker
+345 info trying registry request attempt 1 at 14:20:28
+346 verbose etag "4NS4EOCQXZ0NB6PG3PIW1TD6M"
+347 http GET https://registry.npmjs.org/hooker
+348 verbose url raw iconv-lite
+349 verbose url resolving [ 'https://registry.npmjs.org/', './iconv-lite' ]
+350 verbose url resolved https://registry.npmjs.org/iconv-lite
+351 info trying registry request attempt 1 at 14:20:28
+352 verbose etag "A2T3FVHI8039SNILC54LU3Y3S"
+353 http GET https://registry.npmjs.org/iconv-lite
+354 verbose url raw minimatch
+355 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+356 verbose url resolved https://registry.npmjs.org/minimatch
+357 info trying registry request attempt 1 at 14:20:28
+358 verbose etag "433GUXE31BY78MEUH5M7CIXOG"
+359 http GET https://registry.npmjs.org/minimatch
+360 verbose url raw nopt
+361 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+362 verbose url resolved https://registry.npmjs.org/nopt
+363 info trying registry request attempt 1 at 14:20:28
+364 verbose etag "3XYNN1DM5K7F9CX72UU5XRP7T"
+365 http GET https://registry.npmjs.org/nopt
+366 verbose url raw rimraf
+367 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+368 verbose url resolved https://registry.npmjs.org/rimraf
+369 info trying registry request attempt 1 at 14:20:28
+370 verbose etag "BO8JLBC2TKAXGJCA5T3URAII3"
+371 http GET https://registry.npmjs.org/rimraf
+372 verbose url raw which
+373 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+374 verbose url resolved https://registry.npmjs.org/which
+375 info trying registry request attempt 1 at 14:20:28
+376 verbose etag "43PJVZ0U2IY5DUOK5LXY2JGYD"
+377 http GET https://registry.npmjs.org/which
+378 verbose url raw underscore.string
+379 verbose url resolving [ 'https://registry.npmjs.org/', './underscore.string' ]
+380 verbose url resolved https://registry.npmjs.org/underscore.string
+381 info trying registry request attempt 1 at 14:20:28
+382 verbose etag "82KONBUKGVFGLKPUIJ91QHEA4"
+383 http GET https://registry.npmjs.org/underscore.string
+384 verbose url raw js-yaml
+385 verbose url resolving [ 'https://registry.npmjs.org/', './js-yaml' ]
+386 verbose url resolved https://registry.npmjs.org/js-yaml
+387 info trying registry request attempt 1 at 14:20:28
+388 verbose etag "6AVIVKL9QGGBSOAWI2NX1010Q"
+389 http GET https://registry.npmjs.org/js-yaml
+390 verbose url raw lodash
+391 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+392 verbose url resolved https://registry.npmjs.org/lodash
+393 info trying registry request attempt 1 at 14:20:28
+394 verbose etag "34G28QRTYN4D4KJYH5YQ0G9TP"
+395 http GET https://registry.npmjs.org/lodash
+396 http 304 https://registry.npmjs.org/async
+397 silly registry.get cb [ 304,
+397 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+397 silly registry.get     etag: '"2B1Y1C2HQ67I3WVSBVWN4MMV1"',
+397 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+397 silly registry.get     'content-length': '0' } ]
+398 verbose etag async from cache
+399 http 304 https://registry.npmjs.org/colors
+400 silly registry.get cb [ 304,
+400 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+400 silly registry.get     etag: '"B9D8N8DMNF7PPXGIBQQ74H802"',
+400 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+400 silly registry.get     'content-length': '0' } ]
+401 verbose etag colors from cache
+402 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0-1 <0.7.0-0', hasData: true }
+403 silly addNameRange versions [ 'colors',
+403 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+404 verbose addNamed [ 'colors', '0.6.2' ]
+405 verbose addNamed [ '0.6.2', '0.6.2' ]
+406 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+407 verbose lock colors@0.6.2 /home/miquel/.npm/1ce149d5-colors-0-6-2.lock
+408 verbose read json /home/miquel/.npm/colors/0.6.2/package/package.json
+409 silly addNameRange number 2 { name: 'async', range: '>=0.1.22-0 <0.2.0-0', hasData: true }
+410 silly addNameRange versions [ 'async',
+410 silly addNameRange   [ '0.1.0',
+410 silly addNameRange     '0.1.1',
+410 silly addNameRange     '0.1.2',
+410 silly addNameRange     '0.1.3',
+410 silly addNameRange     '0.1.4',
+410 silly addNameRange     '0.1.5',
+410 silly addNameRange     '0.1.6',
+410 silly addNameRange     '0.1.7',
+410 silly addNameRange     '0.1.8',
+410 silly addNameRange     '0.1.9',
+410 silly addNameRange     '0.1.10',
+410 silly addNameRange     '0.1.11',
+410 silly addNameRange     '0.1.12',
+410 silly addNameRange     '0.1.13',
+410 silly addNameRange     '0.1.14',
+410 silly addNameRange     '0.1.15',
+410 silly addNameRange     '0.1.16',
+410 silly addNameRange     '0.1.17',
+410 silly addNameRange     '0.1.18',
+410 silly addNameRange     '0.1.19',
+410 silly addNameRange     '0.1.20',
+410 silly addNameRange     '0.1.21',
+410 silly addNameRange     '0.1.22',
+410 silly addNameRange     '0.2.0',
+410 silly addNameRange     '0.2.1',
+410 silly addNameRange     '0.2.2',
+410 silly addNameRange     '0.2.3',
+410 silly addNameRange     '0.2.4',
+410 silly addNameRange     '0.2.5',
+410 silly addNameRange     '0.2.6',
+410 silly addNameRange     '0.2.7',
+410 silly addNameRange     '0.2.8',
+410 silly addNameRange     '0.2.9' ] ]
+411 verbose addNamed [ 'async', '0.1.22' ]
+412 verbose addNamed [ '0.1.22', '0.1.22' ]
+413 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+414 verbose lock async@0.1.22 /home/miquel/.npm/09d21715-async-0-1-22.lock
+415 verbose read json /home/miquel/.npm/async/0.1.22/package/package.json
+416 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+417 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+418 silly lockFile f29bff6b-colors-0-6-0-1 colors@~0.6.0-1
+419 silly lockFile f29bff6b-colors-0-6-0-1 colors@~0.6.0-1
+420 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+421 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+422 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+423 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+424 http 304 https://registry.npmjs.org/coffee-script
+425 silly registry.get cb [ 304,
+425 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+425 silly registry.get     etag: '"D6W2D9MC80MJAFWCFZ2W18E18"',
+425 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+425 silly registry.get     'content-length': '0' } ]
+426 verbose etag coffee-script from cache
+427 silly addNameRange number 2 { name: 'coffee-script',
+427 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+427 silly addNameRange   hasData: true }
+428 silly addNameRange versions [ 'coffee-script',
+428 silly addNameRange   [ '0.7.0',
+428 silly addNameRange     '0.7.1',
+428 silly addNameRange     '0.7.2',
+428 silly addNameRange     '0.9.0',
+428 silly addNameRange     '0.9.1',
+428 silly addNameRange     '0.9.2',
+428 silly addNameRange     '0.9.3',
+428 silly addNameRange     '0.9.4',
+428 silly addNameRange     '0.9.5',
+428 silly addNameRange     '0.9.6',
+428 silly addNameRange     '1.0.0',
+428 silly addNameRange     '1.0.1',
+428 silly addNameRange     '1.1.0',
+428 silly addNameRange     '1.1.1',
+428 silly addNameRange     '1.1.2',
+428 silly addNameRange     '1.1.3',
+428 silly addNameRange     '1.2.0',
+428 silly addNameRange     '1.3.0',
+428 silly addNameRange     '1.3.1',
+428 silly addNameRange     '1.3.2',
+428 silly addNameRange     '1.3.3',
+428 silly addNameRange     '1.4.0',
+428 silly addNameRange     '1.5.0',
+428 silly addNameRange     '1.6.0',
+428 silly addNameRange     '1.6.1',
+428 silly addNameRange     '1.6.2',
+428 silly addNameRange     '1.6.3' ] ]
+429 verbose addNamed [ 'coffee-script', '1.3.3' ]
+430 verbose addNamed [ '1.3.3', '1.3.3' ]
+431 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+432 verbose lock coffee-script@1.3.3 /home/miquel/.npm/022c8436-coffee-script-1-3-3.lock
+433 verbose read json /home/miquel/.npm/coffee-script/1.3.3/package/package.json
+434 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+435 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+436 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+437 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+438 http 304 https://registry.npmjs.org/findup-sync
+439 silly registry.get cb [ 304,
+439 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+439 silly registry.get     etag: '"BFALDACBDE84KEJ1UFRKML8CD"',
+439 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+439 silly registry.get     'content-length': '0' } ]
+440 verbose etag findup-sync from cache
+441 http 304 https://registry.npmjs.org/eventemitter2
+442 silly registry.get cb [ 304,
+442 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+442 silly registry.get     etag: '"3X5QUGJ2DP05IHP358LX937LG"',
+442 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+442 silly registry.get     'content-length': '0' } ]
+443 verbose etag eventemitter2 from cache
+444 silly addNameRange number 2 { name: 'findup-sync',
+444 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+444 silly addNameRange   hasData: true }
+445 silly addNameRange versions [ 'findup-sync', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+446 verbose addNamed [ 'findup-sync', '0.1.2' ]
+447 verbose addNamed [ '0.1.2', '0.1.2' ]
+448 silly lockFile d7184b2b-findup-sync-0-1-2 findup-sync@0.1.2
+449 verbose lock findup-sync@0.1.2 /home/miquel/.npm/d7184b2b-findup-sync-0-1-2.lock
+450 verbose read json /home/miquel/.npm/findup-sync/0.1.2/package/package.json
+451 silly addNameRange number 2 { name: 'eventemitter2',
+451 silly addNameRange   range: '>=0.4.9-0 <0.5.0-0',
+451 silly addNameRange   hasData: true }
+452 silly addNameRange versions [ 'eventemitter2',
+452 silly addNameRange   [ '0.0.1',
+452 silly addNameRange     '0.1.0',
+452 silly addNameRange     '0.1.1',
+452 silly addNameRange     '0.1.3',
+452 silly addNameRange     '0.2.5',
+452 silly addNameRange     '0.2.6',
+452 silly addNameRange     '0.2.7',
+452 silly addNameRange     '0.3.5',
+452 silly addNameRange     '0.3.6',
+452 silly addNameRange     '0.3.7',
+452 silly addNameRange     '0.4.0',
+452 silly addNameRange     '0.4.1',
+452 silly addNameRange     '0.4.3',
+452 silly addNameRange     '0.4.6',
+452 silly addNameRange     '0.4.7',
+452 silly addNameRange     '0.4.8',
+452 silly addNameRange     '0.4.9',
+452 silly addNameRange     '0.4.10',
+452 silly addNameRange     '0.4.11',
+452 silly addNameRange     '0.4.12',
+452 silly addNameRange     '0.4.13' ] ]
+453 verbose addNamed [ 'eventemitter2', '0.4.13' ]
+454 verbose addNamed [ '0.4.13', '0.4.13' ]
+455 silly lockFile 2bed8da6-eventemitter2-0-4-13 eventemitter2@0.4.13
+456 verbose lock eventemitter2@0.4.13 /home/miquel/.npm/2bed8da6-eventemitter2-0-4-13.lock
+457 verbose read json /home/miquel/.npm/eventemitter2/0.4.13/package/package.json
+458 silly lockFile d7184b2b-findup-sync-0-1-2 findup-sync@0.1.2
+459 silly lockFile d7184b2b-findup-sync-0-1-2 findup-sync@0.1.2
+460 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+461 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+462 silly lockFile 2bed8da6-eventemitter2-0-4-13 eventemitter2@0.4.13
+463 silly lockFile 2bed8da6-eventemitter2-0-4-13 eventemitter2@0.4.13
+464 silly lockFile 70573e74-eventemitter2-0-4-9 eventemitter2@~0.4.9
+465 silly lockFile 70573e74-eventemitter2-0-4-9 eventemitter2@~0.4.9
+466 http 304 https://registry.npmjs.org/glob
+467 silly registry.get cb [ 304,
+467 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+467 silly registry.get     etag: '"9F27NP1F72HEQ13T6LA8E16E8"',
+467 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+467 silly registry.get     'content-length': '0' } ]
+468 verbose etag glob from cache
+469 http 304 https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+470 silly registry.get cb [ 304,
+470 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+470 silly registry.get     etag: '"53MGS4758SFBP4J0VMOWHAVRB"',
+470 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+470 silly registry.get     'content-length': '0' } ]
+471 verbose etag dateformat/1.0.2-1.2.3 from cache
+472 http 304 https://registry.npmjs.org/hooker
+473 silly registry.get cb [ 304,
+473 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+473 silly registry.get     etag: '"4NS4EOCQXZ0NB6PG3PIW1TD6M"',
+473 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+473 silly registry.get     'content-length': '0' } ]
+474 verbose etag hooker from cache
+475 http 304 https://registry.npmjs.org/iconv-lite
+476 silly registry.get cb [ 304,
+476 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+476 silly registry.get     etag: '"A2T3FVHI8039SNILC54LU3Y3S"',
+476 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+476 silly registry.get     'content-length': '0' } ]
+477 verbose etag iconv-lite from cache
+478 http 304 https://registry.npmjs.org/minimatch
+479 silly registry.get cb [ 304,
+479 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+479 silly registry.get     etag: '"433GUXE31BY78MEUH5M7CIXOG"',
+479 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:29 GMT',
+479 silly registry.get     'content-length': '0' } ]
+480 verbose etag minimatch from cache
+481 verbose read json /home/miquel/.npm/dateformat/1.0.2-1.2.3/package/package.json
+482 silly addNameRange number 2 { name: 'hooker', range: '>=0.2.3-0 <0.3.0-0', hasData: true }
+483 silly addNameRange versions [ 'hooker', [ '0.2.3' ] ]
+484 verbose addNamed [ 'hooker', '0.2.3' ]
+485 verbose addNamed [ '0.2.3', '0.2.3' ]
+486 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+487 verbose lock hooker@0.2.3 /home/miquel/.npm/97e6505f-hooker-0-2-3.lock
+488 silly addNameRange number 2 { name: 'glob', range: '>=3.1.21-0 <3.2.0-0', hasData: true }
+489 silly addNameRange versions [ 'glob',
+489 silly addNameRange   [ '1.1.0',
+489 silly addNameRange     '2.0.9',
+489 silly addNameRange     '2.0.8',
+489 silly addNameRange     '2.0.7',
+489 silly addNameRange     '2.1.0',
+489 silly addNameRange     '3.0.0',
+489 silly addNameRange     '3.0.1',
+489 silly addNameRange     '3.1.0',
+489 silly addNameRange     '3.1.1',
+489 silly addNameRange     '3.1.2',
+489 silly addNameRange     '3.1.3',
+489 silly addNameRange     '3.1.4',
+489 silly addNameRange     '3.1.5',
+489 silly addNameRange     '3.1.6',
+489 silly addNameRange     '3.1.7',
+489 silly addNameRange     '3.1.9',
+489 silly addNameRange     '3.1.10',
+489 silly addNameRange     '3.1.11',
+489 silly addNameRange     '3.1.12',
+489 silly addNameRange     '3.1.13',
+489 silly addNameRange     '3.1.14',
+489 silly addNameRange     '3.1.15',
+489 silly addNameRange     '3.1.16',
+489 silly addNameRange     '3.1.17',
+489 silly addNameRange     '3.1.18',
+489 silly addNameRange     '3.1.19',
+489 silly addNameRange     '3.1.20',
+489 silly addNameRange     '3.1.21',
+489 silly addNameRange     '3.2.0',
+489 silly addNameRange     '3.2.1',
+489 silly addNameRange     '3.2.3',
+489 silly addNameRange     '3.2.4',
+489 silly addNameRange     '3.2.5',
+489 silly addNameRange     '3.2.6',
+489 silly addNameRange     '3.2.7' ] ]
+490 verbose addNamed [ 'glob', '3.1.21' ]
+491 verbose addNamed [ '3.1.21', '3.1.21' ]
+492 silly lockFile ab465912-glob-3-1-21 glob@3.1.21
+493 verbose lock glob@3.1.21 /home/miquel/.npm/ab465912-glob-3-1-21.lock
+494 silly addNameRange number 2 { name: 'iconv-lite',
+494 silly addNameRange   range: '>=0.2.5-0 <0.3.0-0',
+494 silly addNameRange   hasData: true }
+495 silly addNameRange versions [ 'iconv-lite',
+495 silly addNameRange   [ '0.1.0',
+495 silly addNameRange     '0.1.1',
+495 silly addNameRange     '0.1.2',
+495 silly addNameRange     '0.1.3',
+495 silly addNameRange     '0.1.4',
+495 silly addNameRange     '0.2.0',
+495 silly addNameRange     '0.2.1',
+495 silly addNameRange     '0.2.3',
+495 silly addNameRange     '0.2.4',
+495 silly addNameRange     '0.2.5',
+495 silly addNameRange     '0.2.6',
+495 silly addNameRange     '0.2.7',
+495 silly addNameRange     '0.2.8',
+495 silly addNameRange     '0.2.9',
+495 silly addNameRange     '0.2.10',
+495 silly addNameRange     '0.2.11' ] ]
+496 verbose addNamed [ 'iconv-lite', '0.2.11' ]
+497 verbose addNamed [ '0.2.11', '0.2.11' ]
+498 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+499 verbose lock iconv-lite@0.2.11 /home/miquel/.npm/5d877021-iconv-lite-0-2-11.lock
+500 verbose read json /home/miquel/.npm/hooker/0.2.3/package/package.json
+501 verbose read json /home/miquel/.npm/glob/3.1.21/package/package.json
+502 silly addNameRange number 2 { name: 'minimatch', range: '>=0.2.6-0 <0.3.0-0', hasData: true }
+503 silly addNameRange versions [ 'minimatch',
+503 silly addNameRange   [ '0.0.1',
+503 silly addNameRange     '0.0.2',
+503 silly addNameRange     '0.0.4',
+503 silly addNameRange     '0.0.5',
+503 silly addNameRange     '0.1.1',
+503 silly addNameRange     '0.1.2',
+503 silly addNameRange     '0.1.3',
+503 silly addNameRange     '0.1.4',
+503 silly addNameRange     '0.1.5',
+503 silly addNameRange     '0.2.0',
+503 silly addNameRange     '0.2.2',
+503 silly addNameRange     '0.2.3',
+503 silly addNameRange     '0.2.4',
+503 silly addNameRange     '0.2.5',
+503 silly addNameRange     '0.2.6',
+503 silly addNameRange     '0.2.7',
+503 silly addNameRange     '0.2.8',
+503 silly addNameRange     '0.2.9',
+503 silly addNameRange     '0.2.10',
+503 silly addNameRange     '0.2.11',
+503 silly addNameRange     '0.2.12' ] ]
+504 verbose addNamed [ 'minimatch', '0.2.12' ]
+505 verbose addNamed [ '0.2.12', '0.2.12' ]
+506 silly lockFile 16b89810-minimatch-0-2-12 minimatch@0.2.12
+507 verbose lock minimatch@0.2.12 /home/miquel/.npm/16b89810-minimatch-0-2-12.lock
+508 verbose read json /home/miquel/.npm/iconv-lite/0.2.11/package/package.json
+509 verbose read json /home/miquel/.npm/minimatch/0.2.12/package/package.json
+510 silly lockFile 644d6e27-dateformat-1-0-2-1-2-3 dateformat@1.0.2-1.2.3
+511 silly lockFile 644d6e27-dateformat-1-0-2-1-2-3 dateformat@1.0.2-1.2.3
+512 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+513 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+514 silly lockFile ab465912-glob-3-1-21 glob@3.1.21
+515 silly lockFile ab465912-glob-3-1-21 glob@3.1.21
+516 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+517 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+518 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+519 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+520 silly lockFile b5074ddc-glob-3-1-21 glob@~3.1.21
+521 silly lockFile b5074ddc-glob-3-1-21 glob@~3.1.21
+522 silly lockFile 16b89810-minimatch-0-2-12 minimatch@0.2.12
+523 silly lockFile 16b89810-minimatch-0-2-12 minimatch@0.2.12
+524 silly lockFile ca9efaa1-iconv-lite-0-2-5 iconv-lite@~0.2.5
+525 silly lockFile ca9efaa1-iconv-lite-0-2-5 iconv-lite@~0.2.5
+526 silly lockFile 5922ee11-minimatch-0-2-6 minimatch@~0.2.6
+527 silly lockFile 5922ee11-minimatch-0-2-6 minimatch@~0.2.6
+528 http 304 https://registry.npmjs.org/nopt
+529 silly registry.get cb [ 304,
+529 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+529 silly registry.get     etag: '"3XYNN1DM5K7F9CX72UU5XRP7T"',
+529 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:30 GMT',
+529 silly registry.get     'content-length': '0' } ]
+530 verbose etag nopt from cache
+531 http 304 https://registry.npmjs.org/underscore.string
+532 silly registry.get cb [ 304,
+532 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+532 silly registry.get     etag: '"82KONBUKGVFGLKPUIJ91QHEA4"',
+532 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:30 GMT',
+532 silly registry.get     'content-length': '0' } ]
+533 verbose etag underscore.string from cache
+534 http 304 https://registry.npmjs.org/which
+535 silly registry.get cb [ 304,
+535 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+535 silly registry.get     etag: '"43PJVZ0U2IY5DUOK5LXY2JGYD"',
+535 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:30 GMT',
+535 silly registry.get     'content-length': '0' } ]
+536 verbose etag which from cache
+537 http 304 https://registry.npmjs.org/rimraf
+538 silly registry.get cb [ 304,
+538 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+538 silly registry.get     etag: '"BO8JLBC2TKAXGJCA5T3URAII3"',
+538 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:30 GMT',
+538 silly registry.get     'content-length': '0' } ]
+539 verbose etag rimraf from cache
+540 silly addNameRange number 2 { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: true }
+541 silly addNameRange versions [ 'nopt',
+541 silly addNameRange   [ '1.0.0',
+541 silly addNameRange     '1.0.1',
+541 silly addNameRange     '1.0.2',
+541 silly addNameRange     '1.0.3',
+541 silly addNameRange     '1.0.4',
+541 silly addNameRange     '1.0.5',
+541 silly addNameRange     '1.0.6',
+541 silly addNameRange     '1.0.7',
+541 silly addNameRange     '1.0.8',
+541 silly addNameRange     '1.0.9',
+541 silly addNameRange     '1.0.10',
+541 silly addNameRange     '2.0.0',
+541 silly addNameRange     '2.1.0',
+541 silly addNameRange     '2.1.1',
+541 silly addNameRange     '2.1.2' ] ]
+542 verbose addNamed [ 'nopt', '1.0.10' ]
+543 verbose addNamed [ '1.0.10', '1.0.10' ]
+544 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+545 verbose lock nopt@1.0.10 /home/miquel/.npm/1be903a1-nopt-1-0-10.lock
+546 http 304 https://registry.npmjs.org/js-yaml
+547 silly registry.get cb [ 304,
+547 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+547 silly registry.get     etag: '"6AVIVKL9QGGBSOAWI2NX1010Q"',
+547 silly registry.get     date: 'Wed, 20 Nov 2013 12:20:30 GMT',
+547 silly registry.get     'content-length': '0' } ]
+548 verbose etag js-yaml from cache
+549 silly lockFile d5a5a3c6-underscore-string-2-2-0rc underscore.string@~2.2.0rc
+550 silly lockFile d5a5a3c6-underscore-string-2-2-0rc underscore.string@~2.2.0rc
+551 verbose read json /home/miquel/.npm/nopt/1.0.10/package/package.json
+552 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+553 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+554 verbose addNamed [ 'which', '1.0.5' ]
+555 verbose addNamed [ '1.0.5', '1.0.5' ]
+556 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+557 verbose lock which@1.0.5 /home/miquel/.npm/4aed4494-which-1-0-5.lock
+558 verbose about to build /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt
+559 info /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt unbuild
+560 verbose from cache /home/miquel/UCI/jquery-ui-1.10.3/node_modules/grunt/package.json
+561 info preuninstall grunt@0.4.1
+562 silly addNameRange number 2 { name: 'rimraf', range: '>=2.0.2-0 <2.1.0-0', hasData: true }
+563 silly addNameRange versions [ 'rimraf',
+563 silly addNameRange   [ '1.0.0',
+563 silly addNameRange     '1.0.1',
+563 silly addNameRange     '1.0.2',
+563 silly addNameRange     '1.0.4',
+563 silly addNameRange     '1.0.5',
+563 silly addNameRange     '1.0.6',
+563 silly addNameRange     '1.0.7',
+563 silly addNameRange     '1.0.8',
+563 silly addNameRange     '1.0.9',
+563 silly addNameRange     '2.0.0',
+563 silly addNameRange     '2.0.1',
+563 silly addNameRange     '2.0.2',
+563 silly addNameRange     '2.0.3',
+563 silly addNameRange     '2.1.0',
+563 silly addNameRange     '2.1.1',
+563 silly addNameRange     '2.1.2',
+563 silly addNameRange     '2.1.3',
+563 silly addNameRange     '2.1.4',
+563 silly addNameRange     '2.2.0',
+563 silly addNameRange     '2.2.1',
+563 silly addNameRange     '2.2.2' ] ]
+564 verbose addNamed [ 'rimraf', '2.0.3' ]
+565 verbose addNamed [ '2.0.3', '2.0.3' ]
+566 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+567 verbose lock rimraf@2.0.3 /home/miquel/.npm/166fc4dd-rimraf-2-0-3.lock
+568 verbose read json /home/miquel/.npm/which/1.0.5/package/package.json
+569 info uninstall grunt@0.4.1
+570 verbose read json /home/miquel/.npm/rimraf/2.0.3/package/package.json
+571 verbose true,/home/miquel/UCI/jquery-ui-1.10.3/node_modules,/home/miquel/UCI/jquery-ui-1.10.3/node_modules unbuild grunt@0.4.1
+572 info postuninstall grunt@0.4.1
+573 silly addNameRange number 2 { name: 'js-yaml', range: '>=2.0.2-0 <2.1.0-0', hasData: true }
+574 silly addNameRange versions [ 'js-yaml',
+574 silly addNameRange   [ '0.2.0',
+574 silly addNameRange     '0.2.1',
+574 silly addNameRange     '0.2.2',
+574 silly addNameRange     '0.3.0',
+574 silly addNameRange     '0.3.1',
+574 silly addNameRange     '0.3.2',
+574 silly addNameRange     '0.3.3',
+574 silly addNameRange     '0.3.4',
+574 silly addNameRange     '0.3.5',
+574 silly addNameRange     '0.3.6',
+574 silly addNameRange     '0.3.7',
+574 silly addNameRange     '1.0.0',
+574 silly addNameRange     '1.0.1',
+574 silly addNameRange     '1.0.2',
+574 silly addNameRange     '1.0.3',
+574 silly addNameRange     '2.0.0',
+574 silly addNameRange     '2.0.1',
+574 silly addNameRange     '2.0.2',
+574 silly addNameRange     '2.0.3',
+574 silly addNameRange     '2.0.4',
+574 silly addNameRange     '2.0.5',
+574 silly addNameRange     '2.1.0',
+574 silly addNameRange     '2.1.1',
+574 silly addNameRange     '2.1.2',
+574 silly addNameRange     '2.1.3' ] ]
+575 verbose addNamed [ 'js-yaml', '2.0.5' ]
+576 verbose addNamed [ '2.0.5', '2.0.5' ]
+577 silly lockFile 0aecb717-js-yaml-2-0-5 js-yaml@2.0.5
+578 verbose lock js-yaml@2.0.5 /home/miquel/.npm/0aecb717-js-yaml-2-0-5.lock
+579 verbose read json /home/miquel/.npm/js-yaml/2.0.5/package/package.json
+580 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+581 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+582 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+583 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+584 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+585 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+586 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+587 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+588 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+589 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+590 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+591 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+592 silly lockFile 0aecb717-js-yaml-2-0-5 js-yaml@2.0.5
+593 silly lockFile 0aecb717-js-yaml-2-0-5 js-yaml@2.0.5
+594 silly lockFile 0dc3e23f-js-yaml-2-0-2 js-yaml@~2.0.2
+595 silly lockFile 0dc3e23f-js-yaml-2-0-2 js-yaml@~2.0.2
+596 error Error: No compatible version found: underscore.string@'~2.2.0rc'
+596 error Valid install targets:
+596 error ["0.9.2","1.0.0","1.1.3","1.1.4","1.1.5","1.1.6","2.0.0","2.1.0","2.1.1","2.3.0","2.3.1","2.3.2","2.2.1","2.2.0-rc","2.3.3"]
+596 error     at installTargetsError (/usr/share/npm/lib/cache.js:685:10)
+596 error     at /usr/share/npm/lib/cache.js:607:10
+596 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+596 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+596 error     at Object.oncomplete (fs.js:107:15)
+597 error If you need help, you may report this log at:
+597 error     <http://bugs.debian.org/npm>
+597 error or use
+597 error     reportbug --attach /home/miquel/UCI/jquery-ui-1.10.3/npm-debug.log npm
+598 error System Linux 3.11.0-13-generic
+599 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "grunt"
+600 error cwd /home/miquel/UCI/jquery-ui-1.10.3
+601 error node -v v0.10.15
+602 error npm -v 1.2.18
+603 verbose exit [ 1, true ]

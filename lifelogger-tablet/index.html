@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>LifeLogger</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="index.css" type="text/css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+		<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+		<link href="assets/css/jquery.mobile-1.4.0.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="page-login" data-role="page">
+			<div data-role="header">
+				<h1>Login</h1>
+			</div>
+			<div role="main">
+				<label for="login-username" class="ui-hidden-accessible">Username</label>
+				<input id="login-username" type="text" placeholder="Username" />
+				
+				<label for="login-password" class="ui-hidden-accessible">Password</label>
+				<input id="login-password" type="password" placeholder="Password" />
+				
+				<button id="login-submit">Submit</button>
+			</div>
+			
+			<div data-role="footer" style="text-align: center;">
+				<span id="login-error" class="text-danger"></span>
+			</div>
+		</div>
+		
+		<div id="page-content" data-role="page">
+			<div data-role="header">
+				<span class="pull-right" style="margin-top: 10px; padding-right: 10px">Hello, <span id="username">xxx</span></span>
+				<h1>LifeLogger</h1>
+				
+				<a id="button-logout" href="#" class="ui-btn ui-icon-power ui-btn-icon-notext ui-corner-all">No text</a>
+				
+			</div>
+			
+			<div data-role="tabs" id="tabs">
+				<div data-role="navbar">
+					<ul>
+						<li class="ui-tabs-active ui-state-active"><a href="#two" data-ajax="false" class="ui-btn-active">Meals</a></li>
+						<li><a href="#three" data-ajax="false">Sleep</a></li>
+					</ul>
+				</div>
+				<div id="two" class="ui-body-d ui-content">
+					<fieldset>
+						<legend>Meal</legend>
+						<label for="meal-name">Name</label>
+						<input id="meal-name" type="text" placeholder="Meal name" />
+						
+						<label for="meal-calories">Calories</label>
+						<input id="meal-calories" type="range" data-highlight="true" min="0" max="2500" value="1000" />
+						
+						<label for="meal-veg">Vegetarian</label>
+						<input id="meal-veg" type="checkbox" />
+						<label for="meal-lf">Low-fat</label>
+						<input id="meal-lf" type="checkbox" />
+					</fieldset>
+					
+					
+					<fieldset data-role="controlgroup">
+						<legend>Drink</legend>
+						<input type="radio" name="meal-drink" id="meal-drink-water" value="water">
+						<label for="meal-drink-water">Water</label>
+						<input type="radio" name="meal-drink" id="meal-drink-soft" value="soft">
+						<label for="meal-drink-soft">Soft drink</label>
+						<input type="radio" name="meal-drink" id="meal-drink-alcohol" value="alcohol">
+						<label for="meal-drink-alcohol">Alcoholic</label>
+					</fieldset>
+					
+					<button class="ui-btn ui-btn-b">Input</button>
+				</div>
+				<div id="three" class="ui-body-d ui-content">
+					<button id="sleep-switch" class="ui-btn ui-btn-b">Start sleeping</button>
+					
+					<div data-role="footer">
+						<span id="sleep-notice"></span>
+						<span id="sleep-info" class="text-success"></span>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.mobile-1.4.0.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
