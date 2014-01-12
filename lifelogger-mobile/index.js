@@ -7,6 +7,8 @@ $(function () {
 		} else {
 			USERNAME = $("#login-username").prop('value');
 			$.mobile.navigate("#page-content");
+			$("#login-username").prop('value', '');
+			$("#username").text(USERNAME);
 		}
 	});
 	
@@ -22,5 +24,10 @@ $(function () {
 			$("#sleep-notice").text("");
 			$("#sleep-info").text("Sleep registered");
 		}
+	});
+	
+	$("#button-logout").click(function () {
+		$.mobile.navigate("#page-login");
+		USERNAME = "";
 	});
 });
