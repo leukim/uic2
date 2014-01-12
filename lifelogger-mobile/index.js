@@ -30,4 +30,29 @@ $(function () {
 		$.mobile.navigate("#page-login");
 		USERNAME = "";
 	});
+	
+	$("#button-comeback").click(function () {
+		$.mobile.navigate("#page-content");
+		USERNAME = "";
+		$("#page-moves-start").removeClass("hidden");
+		$("#img-finalroute").addClass("hidden");
+		$("#text-finalroute").addClass("hidden");
+	});
+	
+	$("#moves-live").click(function () {
+		$.mobile.navigate("#page-moves");
+	});
+	
+	$("#page-moves-start").click(function () {
+		$("#page-moves-start").addClass("hidden");
+		$("#page-moves-stop").removeClass("hidden");
+		$("#text-recording").removeClass("hidden");
+	});
+	
+	$("#page-moves-stop").click(function () {
+		$("#img-finalroute").removeClass("hidden");
+		$("#page-moves-stop").addClass("hidden");
+		$("#text-recording").addClass("hidden");
+		$("#text-finalroute").removeClass("hidden");
+	});
 });

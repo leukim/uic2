@@ -45,6 +45,7 @@
 					</ul>
 				</div>
 				<div id="one" class="ui-body-d ui-content">
+					<button id="moves-live" class="ui-btn ui-btn-b">Live record</button>
 					<fieldset data-role="controlgroup">
 						<legend>Type</legend>
 						<input type="radio" name="movetype" id="move-walk" value="walk">
@@ -100,7 +101,23 @@
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div>
+		
+		<div id="page-moves" data-role="page">
+			<div data-role="header">
+				<h1>Moves live recording</h1>
+				<a id="button-comeback" href="#" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">No text</a>
+			</div>
+			
+			<div role="main">
+				<button id="page-moves-start" class="ui-btn">Start recording</button>
+				<h1 id="text-recording" class="text-warning hidden" style="text-align: center;">Recording moves...</h1>
+				<button id="page-moves-stop" class="ui-btn ui-btn-b hidden">Stop recording</button>
+				<h1 id="text-finalroute" style="text-align: center;" class="hidden">Final route:</h1>
+				<img id="img-finalroute" src="./rutacolonies.png" class="hidden" style="margin-left: auto; margin-right: auto; display: block;"/>
+				<span id=
+			</div>
+		</div>	
 		<script type="text/javascript" src="assets/js/jquery.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.mobile-1.4.0.js"></script>
 		<script type="text/javascript" src="index.js"></script>
